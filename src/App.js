@@ -34,7 +34,11 @@ function App() {
         },
 
 
-        { path: '/rechart', element: <Rechart></Rechart> },
+        {
+          path: '/rechart', loader: async () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz')
+          }, element: <Rechart></Rechart>
+        },
         { path: '/blog', element: <Blog></Blog> }
       ]
     }
