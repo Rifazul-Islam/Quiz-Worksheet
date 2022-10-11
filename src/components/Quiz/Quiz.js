@@ -19,7 +19,7 @@ const Quiz = ({ item }) => {
                     <div className="card-actions justify-end">
                         <h2 className="card-title text-white">{name}</h2>
                         <p className='text-white text-2xl'> Quiz:{total} </p>
-                        <Link to={`/quiz/${id}`}> <button className="btn btn-primary">Buy Now</button> </Link>
+                        <Link to={`/quiz/${id}`}> <button className="btn btn-primary">Details</button> </Link>
 
                     </div>
                 </div>

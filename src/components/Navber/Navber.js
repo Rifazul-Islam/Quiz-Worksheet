@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+
 import './Navber.css';
 
 const Navber = () => {
@@ -7,8 +9,6 @@ const Navber = () => {
 
 
         <nav>
-
-
             <div className="navbar first-letter:  bg-indigo-500">
                 <div className="flex-1 ml-20">
 
@@ -20,7 +20,10 @@ const Navber = () => {
                     <Link to='/blog'>Blog</Link>
                 </div>
             </div>
+
         </nav>
+
+
     );
 };
 
