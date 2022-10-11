@@ -9,7 +9,7 @@ const Option = ({ option }) => {
 
             <ul>
                 <li className='option text-2xl '>
-                    {option}
+                    <span className=' text-1xl'> <input type='checkbox' /></span> {option}
 
                 </li>
 
