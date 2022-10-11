@@ -8,8 +8,8 @@ const Option = ({ option }) => {
         <div>
 
             <ul>
-                <li className=' text-2xl '>
-                    <span className=' text-1xl'> <input type='checkbox' /></span> {option}
+                <li className='option text-2xl '>
+                    {option}
 
                 </li>
 
