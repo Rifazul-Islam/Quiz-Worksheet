@@ -8,7 +8,7 @@ import './QuizDetails.css'
 
 const QuizDetails = () => {
     const details = useLoaderData().data
-    console.log(details)
+    // console.log(details)
 
     return (
         <div>

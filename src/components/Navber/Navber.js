@@ -7,21 +7,19 @@ import './Navber.css';
 const Navber = () => {
     return (
 
-
-        <nav>
-            <div className="navbar first-letter:  bg-indigo-500">
-                <div className="flex-1 ml-20">
-
-                    <h3 className='text-2xl text-white'> Quiz & Worksheet</h3>
-                </div>
-                <div className="flex-none text-white mr-20 navber">
+        <div class="navbar bg-blue-500">
+            <div class="flex-1">
+                <h1 className="text-white ml-2 text-xl">Quiz & Worksheet</h1>
+            </div>
+            <div class="flex-none">
+                <div className="flex-none  text-white mr-20 navber">
                     <Link to='/home'> Home</Link>
                     <Link to='/rechart'>Rechart</Link>
                     <Link to='/blog'>Blog</Link>
                 </div>
             </div>
+        </div>
 
-        </nav>
 
 
     );

@@ -9,7 +9,7 @@ const Rechart = () => {
 
 
     return (
-        <div className=' m-0 mt-10 grid justify-items-center'>
+        <div className=' mt-10 grid align-items-center justify-items-center'>
 
             <LineChart width={400} height={400} data={data}>
                 <Line type="monotone" dataKey="total" stroke="#8884d8" />

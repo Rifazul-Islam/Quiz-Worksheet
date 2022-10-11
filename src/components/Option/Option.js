@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import './Option.css'
 
 const Option = ({ option, detail }) => {
-    console.log(detail)
+    // console.log(detail)
 
     const { correctAnswer } = detail
 

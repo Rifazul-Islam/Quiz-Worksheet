@@ -10,7 +10,7 @@ const Quiz = ({ item }) => {
 
 
     return (
-        <div style={{ width: '200px' }}>
+        <div >
             <div className=" mt-10 card card-compact  bg-indigo-600 shadow-xl">
                 <figure><img src={logo} alt="Shoes" /></figure>
                 <div className="card-body">
