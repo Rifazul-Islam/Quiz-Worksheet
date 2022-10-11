@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
 import './Option.css'
 
 const Option = ({ option, detail }) => {
@@ -12,11 +13,12 @@ const Option = ({ option, detail }) => {
 
         if (correctAnswer === option) {
 
-            alert('right')
+            toast.success('success: right answer', { autoClose: 500 })
         }
         else {
 
-            alert('wrong')
+
+            toast.warning('warring: false answer', { autoClose: 500 })
         }
     }
 
