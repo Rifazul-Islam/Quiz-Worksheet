@@ -1,7 +1,9 @@
 .detail {
 
-
-    margin: 20px;
     padding: 10px;
+    width: 800px;
+    margin: 30px auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
 
 }

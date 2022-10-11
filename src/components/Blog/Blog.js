@@ -24,7 +24,7 @@ const Blog = () => {
 
             <div className="card w-4/5 m-auto mt-10 bg-blue-500 shadow-xl">
                 <div className="card-body">
-                    <h2 className="card-title"> 3. What is usewrap !!! ?</h2>
+                    <h2 className="card-title"> 3. What is useHref !!! ?</h2>
                     <p className='text-lg text-white'>The useHref hook returns a URL that may be used to link to the given to location, even outside of React Router. </p>
 
                 </div>

@@ -1,17 +1,32 @@
-import React from 'react';
+
+import { Link } from 'react-router-dom';
 import './Option.css'
 
-const Option = ({ option }) => {
+const Option = ({ option, detail }) => {
+    console.log(detail)
 
+    const { correctAnswer } = detail
+
+    const haddAdd = (detail) => {
+
+
+        if (correctAnswer === option) {
+
+            alert('right')
+        }
+        else {
+
+            alert('wrong')
+        }
+    }
 
     return (
         <div>
-
             <ul>
-                <li className='option text-2xl '>
+                <Link onClick={haddAdd} > <li key={option.index} className='option bg-green-200'>
                     <span className=' text-1xl'> <input type='checkbox' /></span> {option}
 
-                </li>
+                </li></Link>
 
             </ul>
 
