@@ -1,10 +1,10 @@
 # Website Name Quiz & Worksheet
- ## Webwite live link : (https://rainbow-unicorn-8bffce.netlify.app/)
+ ## Webwite live and netlify link : (https://rainbow-unicorn-8bffce.netlify.app/) and (https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Rifazul)
 
  #  Website description : 
   ## first create react app instal and react router 
   ## framwork use tailwind and desy UI
-  ##  feacture : Actually this site is quiz related so quiz related system is used
+  ##  feacture : Actually this site is quiz related so quiz related system is used.
   
 # Getting Started with Create React App
 
