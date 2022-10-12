@@ -8,8 +8,10 @@
 
 }
 
-
-@media only screen and (max-width: 800px) {
+/**  
+    Leptop for responsive
+  */
+@media only screen and (max-width:900px) {
     .detail {
 
 
@@ -22,6 +24,9 @@
     }
 }
 
+/**  
+    Mobile for   responsive
+  */
 @media only screen and (max-width: 600px) {
     .detail {
 

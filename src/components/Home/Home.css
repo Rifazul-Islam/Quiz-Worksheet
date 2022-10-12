@@ -9,8 +9,9 @@
 }
 
 
-
-@media only screen and (max-width: 800px) {
+/**     laptop for resposive 
+*/
+@media only screen and (max-width: 900px) {
     .home-container {
 
         display: grid;
@@ -24,6 +25,8 @@
     }
 }
 
+/**    mobile phone for resposive 
+*/
 @media only screen and (max-width: 600px) {
     .home-container {
 
